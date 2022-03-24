@@ -7,21 +7,16 @@ body {
 }
 .container {
     padding: 0 20px 0 20px;
+    margin: 0 auto;
 }
 h1 {
    font-size: 3rem;
    margin: 4rem auto 1rem auto;
 }
 
-.steps {
-    max-width: 320px;
-    margin: 0 auto;
-    text-align: left;
-}
-
-.steps li {
-    font-weight: 700;
-    margin-bottom: 1rem;
+h2 {
+    font-size: 1.25rem;
+    opacity: .7;
 }
 
 .cta {
@@ -33,7 +28,7 @@ h1 {
     display: block;
     font-size: 18px;
     font-weight: 700;
-    margin: 1rem auto;
+    margin: 2rem auto;
     max-width: 240px;
     padding: 1rem;
     text-decoration: none;
@@ -49,4 +44,25 @@ h1 {
     box-shadow: 0px 2px 2px rgba(0,0,0,0.4);
     background: darkgreen;
     opacity: 1;
+}
+
+.phrase-display {
+    font-size: 2rem;font-weight: 500;
+}
+
+@media (min-width:640px){
+    .container {
+        max-width: 640px;
+        padding: 0 20px 0 20px;
+    }
+}
+@media (min-width:768px){
+    .container {
+        max-width: 768px;
+        padding: 0 20px 0 20px;
+    }
+
+    p {
+        font-size: 18px;
+    }
 }
