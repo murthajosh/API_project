@@ -10,6 +10,7 @@ button.addEventListener('click', async () => {
     copyButton.classList.remove('hidden')
 })
 
+// copies that text to the clipboard
 copyButton.addEventListener('click', () => {
     navigator.clipboard.writeText(phraseDisplay.innerHTML);
 })
