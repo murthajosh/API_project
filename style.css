@@ -29,6 +29,15 @@ h1 a:focus {
     color: orange;
 }
 
+span.chart-icon {
+    font-size: 48px;
+    color: green;
+}
+
+h1 a:hover span.chart-icon {
+    color: orange;
+}
+
 h2 {
     font-size: 1.25rem;
     opacity: .7;
