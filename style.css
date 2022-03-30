@@ -7,7 +7,7 @@ body {
 }
 
 .hidden {
-    display:none;
+    display: none;
 }
 
 .container {
@@ -22,6 +22,11 @@ a {
 h1 {
    font-size: 3rem;
    margin: 4rem auto 1rem auto;
+}
+
+h1 a:hover,
+h1 a:focus {
+    color: orange;
 }
 
 h2 {
