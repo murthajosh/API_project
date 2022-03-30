@@ -5,6 +5,11 @@ body {
     text-align: center;
     line-height: 1.6;
 }
+
+.hidden {
+    display:none;
+}
+
 .container {
     padding: 0 20px 0 20px;
     margin: 0 auto;

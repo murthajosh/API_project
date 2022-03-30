@@ -7,6 +7,7 @@ button.addEventListener('click', async () => {
     let response = await axios.get("https://corporatebs-generator.sameerkumar.website/")
     phraseDisplay.innerHTML = ''
     phraseDisplay.append(response.data.phrase)
+    copyButton.classList.remove('hidden')
 })
 
 copyButton.addEventListener('click', () => {
