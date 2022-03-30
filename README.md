@@ -2,4 +2,7 @@
 Practicing grabbing data using Axios
 
 By Josh Murtha
-A fun project to practice grabbing data from an API via Axios.
+
+A fun and simple project to practice grabbing data from an API via Axios.
+
+This tool uses the orporatebs-generator by Sameer Kumar.
